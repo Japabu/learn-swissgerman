@@ -91,7 +91,7 @@ import {
               <div
                 class="progress"
                 [style.width.%]="
-                  ((currentQuestionIndex + 1) / questions.length) * 100
+                  (currentQuestionIndex / questions.length) * 100
                 "
               ></div>
             </div>
